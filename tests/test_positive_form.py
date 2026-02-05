@@ -24,3 +24,4 @@ with sync_playwright() as p:
 
     page.wait_for_timeout(10000)
     browser.close()
+
